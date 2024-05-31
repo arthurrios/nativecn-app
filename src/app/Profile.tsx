@@ -1,5 +1,8 @@
-import { User } from '@/components/User'
 import { Image, View } from 'react-native'
+
+import { Skills } from '@/components/Skills'
+import { User } from '@/components/User'
+import { Preferences } from '@/components/Preferences'
 
 export function Profile() {
   return (
@@ -10,7 +13,11 @@ export function Profile() {
         className="w-full h-52  -mb-16"
       />
 
-      <User />
+      <View className="flex-1 px-4 pb-4">
+        <User />
+        <Skills />
+        <Preferences />
+      </View>
     </View>
   )
 }
