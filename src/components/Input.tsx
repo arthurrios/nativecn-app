@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable react/display-name */
 import { forwardRef } from 'react'
 import { Text, TextInput, View } from 'react-native'
 

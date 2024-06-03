@@ -4,6 +4,7 @@ import { Skills } from '@/components/Skills'
 import { User } from '@/components/User'
 import { Preferences } from '@/components/Preferences'
 import { Input } from '@/components/Input'
+import { Button } from '@/components/Button'
 
 export function Profile() {
   return (
@@ -21,6 +22,7 @@ export function Profile() {
 
         <View className="w-full mt-6 flex-1">
           <Input placeholder="Company" inputClasses="mb-6" label="Company" />
+          <Button label="Save" />
         </View>
       </View>
     </View>
